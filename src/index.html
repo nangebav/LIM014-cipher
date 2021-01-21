@@ -2,46 +2,66 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <meta charset="utf-8"/>
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header>
 
-  <header class="pantalla" >
-    <h1>CIFRADO CAESAR</h1>
-    <h2>ALTAMENTE CONFIDENCIAL</h2>
+    <section id="paginaUno" class="pantallaUno" >
+        <img id="h1" src="img/MOSHED-2021-1-16-11-57-8.gif">
+        <h2>ALTAMENTE CONFIDENCIAL</h2>
+
+      <img src="img\boton normal.png" alt="Submit" id="iniciar">
+    </section>
+
+
+    <section id="paginaDos" class="pantallaDos">
+
+      <form>  
+        <div style="width:100%;" id="adornos" > 
+          <div id="borde" class="full" ><img src="img/barra 1.png" /> </div>
+          <div id="borde" class="full" ><img src="img/barra 2.png" /> </div>
+          <div id="borde" class="full" ><img src="img/barra 3.png" /> </div>
+          <div id="borde" class="full" ><img src="img/barra 4.png" /> </div>
+
+          <div class="textoA" style="position: relative; right: 0px; top:0px; ">
+            <div class="textoA">
+            <h1 >CIFRADO CAESAR</h1>
+            <h2>ALTAMENTE CONFIDENCIAL</h2>
+            <p>GUARDEMOS ESTE SECRETO</p>
+          </div>
+            <input type="number" id="inputDesplazar" class="dezplazamiento"  min="1" placeholder="N°">
+            <br>
+              <textarea name="text" id="inputIngresar" class="textarea"
+                placeholder="Ingresa el texto para cifrar o descifrar" cols="50" rows="6" ></textarea>
+      
+              <textarea name="text" id="inputResultado" class="textarea" cols="50" rows="6" 
+                placeholder="Texto Cifrado/Descifrado" readonly="readonly"></textarea>
+            <br>
+            <button type="button"  id="botonCifrar" class="botones">Cifrar</button>
+            <button type="button" id="botonDescifrar" class="botones">Descifrar</button>
+            <button type="reset" id="botonLimpiar" class="botones">Limpiar</button> 
+            <div id="texto_izq" class="full">
+              <p>
+                Los criptogramas son juegos para decodificar una frase mediante la sustitución de una letra fija por otra. Esto también es bastante sencillo de descifrar, de lo contrario el juego deja de ser divertido. Dado que las letras se pueden utilizar en cualquier orden, no sólo en orden alfabético, su decodificación resulta un poco más compleja que un sistema de cifrado por desplazamiento.
+              </p>
+          </div>
+          
+        </div>
+          <div id="texto_der" class="full" >
+            <p> El Cifrado de Caesar es uno de los métodos de codificación conocidos más antiguos. Es muy simple - sólo se cambian las posiciones del alfabeto. La transformación se denomina ROTN, donde N es el valor de cambio de posiciones y ROT significa "ROTAR", por que es un cambio cíclico.
+
+            Por ejemplo, ROT2 significa que "a" se vuelve "c", "b" se vuelve "d" y al final "y" se vuelve "a", y "z" se vuelve "b". La cantidad de transformaciones posibles depende de la longitud del alfabeto.
+            </p>
+        </div>
+      </form>
+    </section>
   </header>
 
-
-  <section id="paginaUno" class="pantalla" style="background-color: black;">
-    <input type="image" src="img\boton normal.png" alt="Submit" width="48" height="48" id="iniciar" style="width:100px;height:130px;">
-  </section>
-
-
-  <section id="paginaDos" class="pantalla">
-    
-      <p>GUARDEMOS ESTE SECRETO</p>
-    <form>  
-      <input type="number" id="inputDesplazar" class="dezplazamiento" min="1" placeholder="N°">
-      <br>
-      <textarea name="text" id="inputIngresar" class="textarea"
-        placeholder="Ingresa el texto para cifrar o descifrar" cols="50" rows="6"></textarea>
-  
-      <textarea name="text" id="inputResultado" class="textarea" cols="50" rows="6" placeholder="Texto Cifrado/Descifrado" 
-      readonly="readonly"></textarea>
-      <br>
-      <button type="button"  id="botonCifrar" class="botones">Cifrar</button>
-      <button type="button" id="botonDescifrar" class="botones">Descifrar</button>
-      <button type="reset" id="botonLimpiar" class="botones">Limpiar</button> 
-    </form>
-      
-
-  </section>
-
-
-  <footer><p><a href="./help" target="_blank">ACERCA DE(?)</a></p></footer>
   <script src="index.js" type="module"></script>
 </body>
 

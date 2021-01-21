@@ -29,13 +29,17 @@ botonCifrar.addEventListener("click",()=>{
       
     }
 
-      else if (numeroAscii <= 32 ) {
-      let espacio = (numeroAscii-32+parseInt)%26+32;
-      textoCifrado += String.fromCharCode(espacio);
+    else if (numeroAscii >= 48 && numeroAscii <= 57) {
+      let cifradoNumero = (numeroAscii-48+parseInt(numero))%10+48;
+      textoCifrado += String.fromCharCode(cifradoNumero);
       inputResultado.value = textoCifrado;
       
     }
     
+      else if (numeroAscii <= 32 ) {
+      textoCifrado += " ";
+      inputResultado.value = textoCifrado;
+    }
   } 
 
 });
@@ -50,18 +54,25 @@ botonDescifrar.addEventListener("click",()=>{
   
   if(numeroAscii >= 65 && numeroAscii <= 90) {
     //Aplico la fórmula de Cifrado César para el desplazamiento
-    let cifradoMayuscula = (numeroAscii-65-parseInt(numero))%26+65;
+    let cifradoMayuscula = (numeroAscii-90-parseInt(numero))%26+90;
      textoCifrado += String.fromCharCode(cifradoMayuscula);
      inputResultado.value = textoCifrado;
     }       
       else if (numeroAscii >= 97 && numeroAscii <= 122) {
-      let cifradoMinuscula = (numeroAscii-97-parseInt(numero))%26+97;
+      let cifradoMinuscula = (numeroAscii-122-parseInt(numero))%26+122;
       textoCifrado += String.fromCharCode(cifradoMinuscula);
       inputResultado.value = textoCifrado;
     }
+
+    else if (numeroAscii >= 48 && numeroAscii <= 57) {
+      let cifradoNumero = (numeroAscii-57-parseInt(numero))%10+57;
+      textoCifrado += String.fromCharCode(cifradoNumero);
+      inputResultado.value = textoCifrado;
+      
+    }
+
       else if (numeroAscii <= 32 ) {
-      let espacio = (numeroAscii-32-parseInt)%26+32;
-      textoCifrado += String.fromCharCode(espacio);
+      textoCifrado += " ";
       inputResultado.value = textoCifrado;      
     }   
   } 
