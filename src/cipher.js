@@ -19,28 +19,32 @@ botonCifrar.addEventListener("click",()=>{
     //Aplico la fórmula de Cifrado César para el desplazamiento
     let cifradoMayuscula = (numeroAscii-65+parseInt(numero))%26+65;
      textoCifrado += String.fromCharCode(cifradoMayuscula);
-     inputResultado.value = textoCifrado;
     }   
     
       else if (numeroAscii >= 97 && numeroAscii <= 122) {
       let cifradoMinuscula = (numeroAscii-97+parseInt(numero))%26+97;
       textoCifrado += String.fromCharCode(cifradoMinuscula);
-      inputResultado.value = textoCifrado;
       
     }
 
     else if (numeroAscii >= 48 && numeroAscii <= 57) {
       let cifradoNumero = (numeroAscii-48+parseInt(numero))%10+48;
       textoCifrado += String.fromCharCode(cifradoNumero);
-      inputResultado.value = textoCifrado;
       
+    }
+
+    
+    else if (numeroAscii >= 33 && numeroAscii <= 47) {
+      let signos = (numeroAscii-33+parseInt(numero))%15+33;
+      textoCifrado += String.fromCharCode(signos);
     }
     
       else if (numeroAscii <= 32 ) {
       textoCifrado += " ";
-      inputResultado.value = textoCifrado;
     }
-  } 
+
+    inputResultado.value = textoCifrado;
+}
 
 });
 
@@ -56,26 +60,31 @@ botonDescifrar.addEventListener("click",()=>{
     //Aplico la fórmula de Cifrado César para el desplazamiento
     let cifradoMayuscula = (numeroAscii-90-parseInt(numero))%26+90;
      textoCifrado += String.fromCharCode(cifradoMayuscula);
-     inputResultado.value = textoCifrado;
-    }       
+    }   
+
       else if (numeroAscii >= 97 && numeroAscii <= 122) {
       let cifradoMinuscula = (numeroAscii-122-parseInt(numero))%26+122;
       textoCifrado += String.fromCharCode(cifradoMinuscula);
-      inputResultado.value = textoCifrado;
+
     }
 
     else if (numeroAscii >= 48 && numeroAscii <= 57) {
       let cifradoNumero = (numeroAscii-57-parseInt(numero))%10+57;
       textoCifrado += String.fromCharCode(cifradoNumero);
-      inputResultado.value = textoCifrado;
       
     }
 
+    else if (numeroAscii >= 33 && numeroAscii <= 47) {
+      let extendido = (numeroAscii-47-parseInt(numero))%15+47;
+      textoCifrado += String.fromCharCode(extendido);
+    }
+
       else if (numeroAscii <= 32 ) {
-      textoCifrado += " ";
-      inputResultado.value = textoCifrado;      
-    }   
-  } 
+      textoCifrado += " "; 
+    }  
+
+    inputResultado.value = textoCifrado;
+  }
 });
 
 
