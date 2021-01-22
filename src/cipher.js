@@ -35,13 +35,22 @@ botonCifrar.addEventListener("click",()=>{
 
     
     else if (numeroAscii >= 33 && numeroAscii <= 47) {
-      let signos = (numeroAscii-33+parseInt(numero))%15+33;
+      let simbolos = (numeroAscii-33+parseInt(numero))%15+33;
+      textoCifrado += String.fromCharCode(simbolos);
+    }
+
+    
+    else if (numeroAscii >= 58 && numeroAscii <= 96) {
+      let signos = (numeroAscii-58+parseInt(numero))%39+58;
       textoCifrado += String.fromCharCode(signos);
     }
     
       else if (numeroAscii <= 32 ) {
       textoCifrado += " ";
     }
+
+    else{
+      textoCifrado += textoIngresado[i]}
 
     inputResultado.value = textoCifrado;
 }
@@ -75,14 +84,21 @@ botonDescifrar.addEventListener("click",()=>{
     }
 
     else if (numeroAscii >= 33 && numeroAscii <= 47) {
-      let extendido = (numeroAscii-47-parseInt(numero))%15+47;
-      textoCifrado += String.fromCharCode(extendido);
+      let simbolos = (numeroAscii-47-parseInt(numero))%15+47;
+      textoCifrado += String.fromCharCode(simbolos);
     }
 
       else if (numeroAscii <= 32 ) {
       textoCifrado += " "; 
     }  
 
+    else if (numeroAscii >= 58 && numeroAscii <= 96) {
+      let signos = (numeroAscii-96-parseInt(numero))%39+96;
+      textoCifrado += String.fromCharCode(signos);
+    }
+    else{
+      textoCifrado += textoIngresado[i]
+    }
     inputResultado.value = textoCifrado;
   }
 });
