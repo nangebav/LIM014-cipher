@@ -19,6 +19,18 @@ const botonCifrar = document.getElementById ("botonCifrar");
 const botonDescifrar = document.getElementById ("botonDescifrar");
 
 
+botonCifrar.addEventListener("click",()=>{
+    let numero = inputDesplazar.value;
+    let textoIngresado = inputIngresar.value;
+    inputResultado.value = cipher.encode(numero,textoIngresado);
+});
+
+
+botonDescifrar.addEventListener("click",()=>{
+    let numero = inputDesplazar.value;
+    let textoIngresado = inputIngresar.value;
+    inputResultado.value = cipher.decode(numero,textoIngresado);
+});
 
 
 

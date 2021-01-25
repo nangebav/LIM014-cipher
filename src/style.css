@@ -146,12 +146,12 @@
           color:#fff490;
           border: 3px solid #fff490;}
 
-    #borde{
+    .fondo{
       position: fixed;
       top: 0px;
       width: 100%;
     }
-    #borde img{
+    .fondo img{
             width: 100%;
     }
 

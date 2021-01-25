@@ -1,13 +1,10 @@
 const cipher = {
-  // ...
-};
+  encode:(numero,textoIngresado)=> {
+  let textoCifrado = ""; 
+  
+
 
 //Evento para cifrar
-
-botonCifrar.addEventListener("click",()=>{
-  let numero = inputDesplazar.value;
-  let textoIngresado = inputIngresar.value;
-  let textoCifrado = " ";
 
     //Identifico el N° ascii del texto ingresaado
     //0 indica la posición inicial del string, aquí aplicar for
@@ -23,44 +20,38 @@ botonCifrar.addEventListener("click",()=>{
     
       else if (numeroAscii >= 97 && numeroAscii <= 122) {
       let cifradoMinuscula = (numeroAscii-97+parseInt(numero))%26+97;
-      textoCifrado += String.fromCharCode(cifradoMinuscula);
-      
+      textoCifrado += String.fromCharCode(cifradoMinuscula);      
     }
 
     else if (numeroAscii >= 48 && numeroAscii <= 57) {
       let cifradoNumero = (numeroAscii-48+parseInt(numero))%10+48;
-      textoCifrado += String.fromCharCode(cifradoNumero);
-      
+      textoCifrado += String.fromCharCode(cifradoNumero);    
     }
-
-    
+   
     else if (numeroAscii >= 33 && numeroAscii <= 47) {
       let simbolos = (numeroAscii-33+parseInt(numero))%15+33;
       textoCifrado += String.fromCharCode(simbolos);
-    }
-
-    
-    else if (numeroAscii >= 58 && numeroAscii <= 96) {
-      let signos = (numeroAscii-58+parseInt(numero))%39+58;
-      textoCifrado += String.fromCharCode(signos);
+   }
+   
+    else if (numeroAscii >= 58 && numeroAscii <= 64) {
+      let signos = (numeroAscii-58+parseInt(numero))%7+58;
+      textoCifrado += String.fromCharCode(signos); 
     }
     
       else if (numeroAscii <= 32 ) {
       textoCifrado += " ";
-    }
-
+    }   
+    
     else{
-      textoCifrado += textoIngresado[i]}
+      textoCifrado += textoIngresado[i]
+    } 
+  }  
+  console.log(textoCifrado);
+  return textoCifrado;
+},
 
-    inputResultado.value = textoCifrado;
-}
-
-});
-
-botonDescifrar.addEventListener("click",()=>{
-  let numero = inputDesplazar.value;
-  let textoIngresado = inputIngresar.value;
-  let textoCifrado = " ";
+decode:(numero,textoIngresado)=> {
+  let textoDescifrado = ""; 
 
   for (let i = 0; i < textoIngresado.length; i++) {
   let numeroAscii= textoIngresado.charCodeAt(i);
@@ -68,41 +59,41 @@ botonDescifrar.addEventListener("click",()=>{
   if(numeroAscii >= 65 && numeroAscii <= 90) {
     //Aplico la fórmula de Cifrado César para el desplazamiento
     let cifradoMayuscula = (numeroAscii-90-parseInt(numero))%26+90;
-     textoCifrado += String.fromCharCode(cifradoMayuscula);
+     textoDescifrado += String.fromCharCode(cifradoMayuscula);
     }   
 
       else if (numeroAscii >= 97 && numeroAscii <= 122) {
       let cifradoMinuscula = (numeroAscii-122-parseInt(numero))%26+122;
-      textoCifrado += String.fromCharCode(cifradoMinuscula);
+      textoDescifrado += String.fromCharCode(cifradoMinuscula);
 
     }
 
     else if (numeroAscii >= 48 && numeroAscii <= 57) {
       let cifradoNumero = (numeroAscii-57-parseInt(numero))%10+57;
-      textoCifrado += String.fromCharCode(cifradoNumero);
+      textoDescifrado += String.fromCharCode(cifradoNumero);
       
     }
 
     else if (numeroAscii >= 33 && numeroAscii <= 47) {
       let simbolos = (numeroAscii-47-parseInt(numero))%15+47;
-      textoCifrado += String.fromCharCode(simbolos);
+      textoDescifrado += String.fromCharCode(simbolos);
     }
 
       else if (numeroAscii <= 32 ) {
-      textoCifrado += " "; 
+      textoDescifrado += " "; 
     }  
 
-    else if (numeroAscii >= 58 && numeroAscii <= 96) {
-      let signos = (numeroAscii-96-parseInt(numero))%39+96;
-      textoCifrado += String.fromCharCode(signos);
+    else if (numeroAscii >= 58 && numeroAscii <= 64) {
+      let signos = (numeroAscii-64-parseInt(numero))%7+64;
+      textoDescifrado += String.fromCharCode(signos);
     }
+    
     else{
-      textoCifrado += textoIngresado[i]
-    }
-    inputResultado.value = textoCifrado;
-  }
-});
+      textoDescifrado += textoIngresado[i]
+    } 
+  }  
+  return textoDescifrado
+},
+};
 
-
-MediaElementAudioSourceNode
 export default cipher;
