@@ -1,4 +1,4 @@
-## CRIPTO (CAESAR CIPHER)
+# CRIPTO (CAESAR CIPHER)
 
 ## 1.RESUMEN DEL PROYECTO
 CRIPTO es una plataforma virtual que permite a nuestros usuarios cifrar y descifrar textos secretos mediante el sistema de encriptado de desplazamiento Caesar, bastante facil de usar.
