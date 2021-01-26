@@ -32,7 +32,10 @@
         width: 100% ;
         height: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
       }
       .logo{
         position: relative;
@@ -64,7 +67,10 @@
       }
       #iniciar:hover {
         filter: hue-rotate(60deg) brightness(500%)
+<<<<<<< HEAD
 >>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
+=======
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
       }
       .logo{
         position: relative;
@@ -72,6 +78,10 @@
         width: 60% ;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         }
 
         .pantallaUno h2{
@@ -118,6 +128,7 @@
         text-align: center;
         margin: 0;
         width: 100vw;
+<<<<<<< HEAD
 =======
       .pantallaDos{
         position: absolute;
@@ -138,6 +149,8 @@
         margin: 00;
         width: 100%;
 >>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
+=======
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
 
         }
         .textoA h1:hover{
@@ -148,6 +161,9 @@
           color:#fff490;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
 
         .textoA p:hover{
           color:#fff490;
@@ -156,6 +172,7 @@
         .textoA div{
           width: 100%;}
 
+<<<<<<< HEAD
 =======
 
         .textoA p:hover{
@@ -166,6 +183,9 @@
           width: 100%;}
 
 >>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
+=======
+
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         .textarea {
           background-color:  rgba(255, 178, 62, 0.12) ;
           margin: 1px;
@@ -176,10 +196,13 @@
           outline: none;
           border: 3px solid rgba(172, 110, 3, 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
           
 >>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
+=======
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         }
         
         #inputIngresar {
@@ -209,6 +232,7 @@
           font-size: 18px; 
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
   
         .dezplazamiento:hover{
           box-shadow: 0 0.25rem 1rem #dc8e04;
@@ -226,6 +250,8 @@
         }
   
 =======
+=======
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
   
         .dezplazamiento:hover{
           box-shadow: 0 0.25rem 1rem #dc8e04;
@@ -242,7 +268,10 @@
           font-family: consola;
         }
   
+<<<<<<< HEAD
 >>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
+=======
+>>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         .botones:hover{
           box-shadow: 0 0.25rem 1rem #dc8e04;
           color:#fff490;
