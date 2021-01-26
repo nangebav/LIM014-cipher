@@ -1,4 +1,3 @@
-
 * {
   text-align: center;
   margin: 0%;
@@ -31,57 +30,12 @@
         color:#fdfdfd;
         width: 100% ;
         height: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
-      }
-      .logo{
-        position: relative;
-        left: -10%; top: 80px;
-        width: 60% ;
-        height: 60%;
-
-        }
-
-        .pantallaUno h2{
-         
-          color: #000000;
-          position: relative; left: -10%; top:-150px;
-          font: outline;
-          padding: 14px;
-          padding-top: 146px;
-          font-size: 30px
-          } 
-          
-          .pantallaUno h2:hover{
-            color: aliceblue;
-          }
-          
-      #iniciar{
-        width:200px;
-        position: relative;
-        right: -300px;
-        top: -400px;
-      }
-      #iniciar:hover {
-        filter: hue-rotate(60deg) brightness(500%)
-<<<<<<< HEAD
->>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
-=======
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
       }
       .logo{
         position: relative;
         left: -10%; top: 80px;
         width: 60% ;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         }
 
         .pantallaUno h2{
@@ -107,7 +61,6 @@
       #iniciar:hover {
         filter: hue-rotate(60deg) brightness(500%)
       }
-      
 
       .pantallaDos{
         position: absolute;
@@ -116,7 +69,7 @@
         background-size: 100%;
         background-repeat:repeat;
         color:#dc8e04;
-        width: 100vh;
+        width: 100%;
         height: 100%;
         
       }
@@ -128,29 +81,6 @@
         text-align: center;
         margin: 0;
         width: 100vw;
-<<<<<<< HEAD
-=======
-      .pantallaDos{
-        position: absolute;
-        background-image: url("img/grid.png");
-        background-color: #130000;
-        background-size: 100%;
-        background-repeat:repeat;
-        color:#dc8e04;
-        width: 100%;
-        height: 100%;
-      }
-
-      .textoA{
-        position: relative;
-        right: 80px;
-        padding-top: 90px;
-        text-align: center;
-        margin: 00;
-        width: 100%;
->>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
-=======
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
 
         }
         .textoA h1:hover{
@@ -160,10 +90,6 @@
         .textoA h2:hover{
           color:#fff490;
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
 
         .textoA p:hover{
           color:#fff490;
@@ -172,20 +98,6 @@
         .textoA div{
           width: 100%;}
 
-<<<<<<< HEAD
-=======
-
-        .textoA p:hover{
-          color:#fff490;
-        }
-
-        .textoA div{
-          width: 100%;}
-
->>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
-=======
-
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         .textarea {
           background-color:  rgba(255, 178, 62, 0.12) ;
           margin: 1px;
@@ -195,14 +107,7 @@
           font-size: 20px;
           outline: none;
           border: 3px solid rgba(172, 110, 3, 1);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-          
->>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
-=======
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         }
         
         #inputIngresar {
@@ -231,8 +136,6 @@
           font-family: consola;
           font-size: 18px; 
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
   
         .dezplazamiento:hover{
           box-shadow: 0 0.25rem 1rem #dc8e04;
@@ -249,29 +152,6 @@
           font-family: consola;
         }
   
-=======
-=======
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
-  
-        .dezplazamiento:hover{
-          box-shadow: 0 0.25rem 1rem #dc8e04;
-          color:#fff490;
-          border: 3px solid #fff490;}
-  
-  
-        .botones{
-          margin: 16px; width: 96px; height: 37px;
-          border: 3px solid rgba(172, 110, 3, 1);
-          background-color: rgba(172, 110, 3, 0.1);
-          color:#dc8e04;
-          font-size: 20px;
-          font-family: consola;
-        }
-  
-<<<<<<< HEAD
->>>>>>> 27c965d723bb5f4d62593097efc97acafab2195c
-=======
->>>>>>> 90d7d59f574fc4f3355656bdc377447a726c9791
         .botones:hover{
           box-shadow: 0 0.25rem 1rem #dc8e04;
           color:#fff490;
@@ -282,6 +162,7 @@
       top: 0px;
       width: 100%;
     }
+    
     .fondo img{
             width: 100%;
     }
@@ -294,8 +175,6 @@
       padding-top: 8%; 
       padding-right: 10%;
      }
-
-     
 
 
       #texto_izq{
