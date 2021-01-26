@@ -36,6 +36,38 @@
         position: relative;
         left: -10%; top: 80px;
         width: 60% ;
+        height: 60%;
+
+        }
+
+        .pantallaUno h2{
+         
+          color: #000000;
+          position: relative; left: -10%; top:-150px;
+          font: outline;
+          padding: 14px;
+          padding-top: 146px;
+          font-size: 30px
+          } 
+          
+          .pantallaUno h2:hover{
+            color: aliceblue;
+          }
+          
+      #iniciar{
+        width:200px;
+        position: relative;
+        right: -300px;
+        top: -400px;
+      }
+      #iniciar:hover {
+        filter: hue-rotate(60deg) brightness(500%)
+      }
+      .logo{
+        position: relative;
+        left: -10%; top: 80px;
+        width: 60% ;
+
 
         }
 
@@ -100,6 +132,7 @@
         .textoA div{
           width: 100%;}
 
+
         .textarea {
           background-color:  rgba(255, 178, 62, 0.12) ;
           margin: 1px;
@@ -109,7 +142,6 @@
           font-size: 20px;
           outline: none;
           border: 3px solid rgba(172, 110, 3, 1);
-
         }
         
         #inputIngresar {
