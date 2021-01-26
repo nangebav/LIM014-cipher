@@ -12,9 +12,9 @@ Los usuarios y los objetivos en relación con el producto
 Antes de consolidar la idea del proyecto se solicitó la opinión de tres personas, dos de género femenino y uno masculíno de entre 18 a 19 años de edad. Les dimos la siguiente incognita a responder: Si tuviera una herramienta para el cifrado de textos, ¿Qué uso le daría?
 Las respuestas proporcionadas fueron:
 
--Guardar textos privados
--Contraseñas
--Escribir por mensajes secretos
+-Guardar textos privados.
+-Contraseñas.
+-Escribir por mensajes secretos.
 
 Fue gracias a estas opiniones que decidí que mi proyecto consistiría en la elaboración de una aplicación que permita el cifrado y descifrado de textos que puedan incluir anotaciones privadas o secretas para el archivo de un block privado o cualquier uso similar.
 
