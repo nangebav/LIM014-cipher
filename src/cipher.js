@@ -1,6 +1,7 @@
 const cipher = {
   encode:(numero,textoIngresado)=> {
   let textoCifrado = ""; 
+
   
 
 
