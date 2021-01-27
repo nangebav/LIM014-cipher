@@ -13,29 +13,35 @@ Los usuarios y los objetivos en relación con el producto
 Antes de consolidar la idea del proyecto se solicitó la opinión de tres personas, dos de género femenino y uno masculíno de entre 18 a 19 años de edad. Les dimos la siguiente incognita a responder: Si tuviera una herramienta para el cifrado de textos, ¿Qué uso le daría?
 Las respuestas proporcionadas fueron:
 
-*-Guardar textos privados.
-*-Contraseñas.
-*-Escribir por mensajes secretos.
+* -Guardar textos privados.
+
+* -Contraseñas.
+
+* -Escribir por mensajes secretos.
 
 Fue gracias a estas opiniones que decidí que mi proyecto consistiría en la elaboración de una aplicación que permita el cifrado y descifrado de textos que puedan incluir anotaciones privadas o secretas para el archivo de un block privado o cualquier uso similar.
 
 Luego de realizar el segundo prototipo se solicitó feedback a cuatro personas, dos varones y dos mujeres entre 19 y 21 años de edad, en relación a la necesidad de confidencialidad de la información y su relación *con la tecnología. Los comentarios recibidos fueron los siguientes:
 
-*"Es importante cambiar la contraseña regularmente porque abundan los hackers, solo que a veces olvido mi contraseña y sería genial una aplicación que me ayude a recordarla fácilmente".
-*"Usualmente guardo mis anotaciones en el correo electrónico porque tengo miendo a que alguien vaya a leer mis notas privadas".
-*"Ahora no tengo información muy confidencial, pero si lo llegara a tener sin duda lo encriptaría".
-*"Me gustaría mantener en privado conversaciones con otros, existen muchos espias por internet"
+* "Es importante cambiar la contraseña regularmente porque abundan los hackers, solo que a veces olvido mi contraseña y sería genial una aplicación que me ayude a recordarla fácilmente".
+
+* "Usualmente guardo mis anotaciones en el correo electrónico porque tengo miendo a que alguien vaya a leer mis notas privadas".
+
+* "Ahora no tengo información muy confidencial, pero si lo llegara a tener sin duda lo encriptaría".
+
+* "Me gustaría mantener en privado conversaciones con otros, existen muchos espias por internet"
 
 Gracias a las opiniones recibidas, se decidí crear una aplicación destinada a usuarios entre 18 y 28 años de edad que necesiten encontrar un espacio seguro y privado que proporcione cualidades confidenciales y con la información digital dentro de las nuevas tecnologías de almacenamiento de archivos personales.
 
 Así se creó Cripto, una aplicación con la que el usuario podrá cifrar y descifrar rápidamente textos confidenciales como por ejemplo:
 
-Blocks privados
-Mensajes o cartas electrónicas
+* Blocks privados
+* Mensajes o cartas electrónicas
+
 Así también, otros servicios que permite Cripto es la creación de:
 
-Claves secretas
-Códigos de seguridad
+* Claves secretas
+* Códigos de seguridad
 
 ## 4. Imagen del primer prototipo en papel ( Junto al primer diseño de Nombre y logo)
 
@@ -49,9 +55,11 @@ Códigos de seguridad
 ## 6. Resumen del primer feedback
 Luego de mostrar el primer prototipo de Figma a mis compañeras e indicar la utilidad de la aplicación que pensaba crear para el proyecto, recibí las siguientes sugerencias:
 
-*"El casillero de desplazamiento no debería ser tan grande".
-*"El texto de ayuda está muy largo"
-*"Es necesario que los botones resalten más".
+* "El casillero de desplazamiento no debería ser tan grande".
+
+* "El texto de ayuda está muy largo"
+
+* "Es necesario que los botones resalten más".
 
 ## 7. Imagen del prototipo final
 ![Sin título](https://user-images.githubusercontent.com/77282012/105871217-14fa2300-5fc7-11eb-8bf6-66ee09b49ba7.png)
