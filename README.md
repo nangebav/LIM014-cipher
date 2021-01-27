@@ -81,10 +81,6 @@ Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
 
 ## 9. Objetivos de aprendizaje
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
-
 ### HTML y CSS
 
 * [X] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
