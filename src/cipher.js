@@ -9,8 +9,11 @@ const cipher = {
   for (let i = 0; i < textoIngresado.length; i++) {
     //Traigo la posición ascii de la letra ingresada en message - Coloco 0 para indicar la posición inicial del string, aquí aplicar for
   let numeroAscii= textoIngresado.charCodeAt(i);
+
+    if( numero == ""){
+    textoCifrado+= "";}
   
-    if(numeroAscii >= 65 && numeroAscii <= 90) {
+    else if(numeroAscii >= 65 && numeroAscii <= 90) {
     //Aplico la fórmula de Cifrado César para el desplazamiento
       let cifradoMayuscula = (numeroAscii-65+parseInt(numero))%26+65;
       textoCifrado += String.fromCharCode(cifradoMayuscula);
@@ -38,12 +41,7 @@ const cipher = {
     
     else if (numeroAscii <= 32 ) {
       textoCifrado += " ";
-    }  
-
-
-    else if( numero == ""){
-      textoCifrado+= "";
-    }
+    }   
     
     else{
       textoCifrado += textoIngresado[i]
@@ -59,8 +57,11 @@ decode:(numero,textoIngresado)=> {
 
   for (let i = 0; i < textoIngresado.length; i++) {
   let numeroAscii= textoIngresado.charCodeAt(i);
+  
+    if(numero == ""){
+      textoDescifrado+= ""}
 
-    if(numeroAscii >= 65 && numeroAscii <= 90) {
+    else if(numeroAscii >= 65 && numeroAscii <= 90) {
       //Aplico la fórmula de Cifrado César para el desplazamiento
       let cifradoMayuscula = (numeroAscii-90-parseInt(numero))%26+90;
       textoDescifrado += String.fromCharCode(cifradoMayuscula);
@@ -85,11 +86,7 @@ decode:(numero,textoIngresado)=> {
 
     else if (numeroAscii <= 32 ) {
       textoDescifrado += " "; 
-    }
-   
-    else if(numero == ""){
-      textoDescifrado+= "";
-    }
+    }  
 
     else if (numeroAscii >= 58 && numeroAscii <= 64) {
       let signos = (numeroAscii-64-parseInt(numero))%7+64;

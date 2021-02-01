@@ -83,7 +83,7 @@ Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
 
 ### HTML y CSS
 
-* [X] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [X] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML).
 * [X] Uso de selectores de CSS.
 * [x] Construir tu aplicación respetando el diseño realizado (maquetación).
 
@@ -91,7 +91,7 @@ Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:
 
 * [x] Uso de selectores del DOM.
 * [x] Manejo de eventos del DOM.
-* [x] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
 (appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
 
 ### JavaScript
