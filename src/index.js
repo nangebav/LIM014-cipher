@@ -23,6 +23,8 @@ botonCifrar.addEventListener("click",()=>{
     let numero = inputDesplazar.value;
     let textoIngresado = inputIngresar.value;
     inputResultado.value = cipher.encode(numero,textoIngresado);
+    if(textoIngresado == null || numero == ""){
+     inputResultado== null}
 });
 
 

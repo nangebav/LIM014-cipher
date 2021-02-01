@@ -53,9 +53,15 @@ describe('cipher', () => {
       expect(cipher.encode(33, '@' )).toBe('>');
     });
 
+    it('should return "" para ""', () => {
+      expect(cipher.encode(null, '')).toBe('');
+    });
+
      it('should return " ñ" for " ñ"', () => {
       expect(cipher.encode(33, ' ñ')).toBe(' ñ');
      });
+
+     
 
      
   });
@@ -110,6 +116,11 @@ describe('cipher', () => {
      it('should return " ñ" para " ñ"', () => {
        expect(cipher.decode(33, ' ñ')).toBe(' ñ');
      });
+
+
+     it('should return "" para ""', () => {
+      expect(cipher.decode(null, '')).toBe('');
+    });
 
      it('should return "@" for ">" with offset 33', () => {
       expect(cipher.decode(33, '>' )).toBe('@');
